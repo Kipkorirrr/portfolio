@@ -12,9 +12,9 @@ export default function Philosophy() {
     >
       <p className="eyebrow"><span className="eyebrow-line" /> A guiding thought</p>
       <blockquote>
-        “The best interfaces don&apos;t just work. They make you <em>feel something.</em>”
+        “The best software doesn&apos;t just work. It makes a <em>difference.</em>”
       </blockquote>
-      <p className="philosophy-caption">A little cosmic symbolism, a lot of clarity — no templates, just thoughtful details.</p>
+      <p className="philosophy-caption">Reliable systems under the hood, thoughtful experiences on the surface.</p>
     </motion.div>
   );
 }

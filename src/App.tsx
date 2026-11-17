@@ -43,8 +43,8 @@ function HomePage() {
           <div className="art-coordinate">01°17&apos; S&nbsp; 36°49&apos; E</div>
           <div className="art-card">
             <div className="art-card-top"><span>FIELD NOTES / 001</span><span>✳</span></div>
-            <div className="art-card-title">Ideas into<br /><em>interfaces.</em></div>
-            <div className="art-card-bottom"><span>DESIGN · ENGINEERING</span><span>2026 — ∞</span></div>
+            <div className="art-card-title">Ideas into<br /><em>software.</em></div>
+            <div className="art-card-bottom"><span>SOFTWARE · SYSTEMS</span><span>2026 — ∞</span></div>
           </div>
           <div className="art-caption"><span className="status-dot" /> Available for select projects</div>
         </div>
@@ -58,8 +58,8 @@ function HomePage() {
       <section id="home-work" className="content-section home-projects-section">
         <div className="section-heading section-heading-row">
           <div>
-            <p className="eyebrow"><span className="eyebrow-line" /> A few things I&apos;ve worked on</p>
-            <h2>Selected <em>work.</em></h2>
+            <p className="eyebrow"><span className="eyebrow-line" /> Project highlights</p>
+            <h2>Selected <em>projects.</em></h2>
           </div>
           <a className="section-link" href="#/work">All projects <span aria-hidden="true">↗</span></a>
         </div>
@@ -68,9 +68,9 @@ function HomePage() {
 
       <section className="content-section home-about-section">
         <div className="home-about-copy">
-          <p className="eyebrow"><span className="eyebrow-line" /> The person behind the pixels</p>
+          <p className="eyebrow"><span className="eyebrow-line" /> The engineer behind the product</p>
           <h2>Thoughtful by nature.<br /><em>Curious by default.</em></h2>
-          <p>I&apos;m Enock, an independent developer in Nairobi. I build useful digital products with a little character and a lot of care.</p>
+          <p>I&apos;m Enock, a software engineer, systems analyst, and designer in Nairobi. I turn complex needs into useful products across frontend, backend, AI, cloud, and data.</p>
           <a className="text-link" href="#/about">More about me <span aria-hidden="true">↗</span></a>
         </div>
         <div className="home-about-stamp" aria-hidden="true"><span>GOOD IDEAS<br />TAKE SHAPE</span><strong>✳</strong><small>NAIROBI · KE</small></div>
@@ -92,8 +92,8 @@ function WorkPage() {
     <>
       <section className="page-intro">
         <p className="eyebrow"><span className="eyebrow-line" /> The portfolio</p>
-        <h1>Made with<br /><em>purpose.</em></h1>
-        <p className="page-intro-copy">A selection of e-commerce and product work. More projects and contributions are always in progress.</p>
+        <h1>Projects with<br /><em>purpose.</em></h1>
+        <p className="page-intro-copy">A selection of product and software work, from e-commerce and property tech to end-to-end digital experiences.</p>
       </section>
       <section className="content-section work-list-section">
         <Projects />
@@ -101,8 +101,8 @@ function WorkPage() {
           <span className="more-work-mark" aria-hidden="true">+</span>
           <div>
             <p className="eyebrow">Beyond the featured work</p>
-            <h2>More stores, side projects<br />&amp; community contributions.</h2>
-            <p>I&apos;ve worked across more e-commerce apps and contributed to projects beyond this selection. Get in touch if you&apos;d like to hear more.</p>
+            <h2>More products, software projects<br />&amp; technical explorations.</h2>
+            <p>I&apos;m open to projects involving AI, cloud infrastructure, and data systems. Get in touch if you&apos;d like to talk through a challenge.</p>
           </div>
           <a className="text-link" href="#/contact">Let&apos;s talk <span aria-hidden="true">↗</span></a>
         </div>
@@ -116,15 +116,15 @@ function AboutPage() {
     <>
       <section className="page-intro about-page-intro">
         <p className="eyebrow"><span className="eyebrow-line" /> About Enock</p>
-        <h1>Build with care.<br /><em>Stay curious.</em></h1>
-        <p className="page-intro-copy">I&apos;m an independent developer based in Nairobi, Kenya, turning ideas into considered digital experiences.</p>
+        <h1>Engineer from idea<br /><em>to deployment.</em></h1>
+        <p className="page-intro-copy">I&apos;m a software engineer, systems analyst, and designer based in Nairobi, Kenya. I connect business needs, system requirements, and user experience to build useful software.</p>
       </section>
       <section className="content-section about-detail-section">
         <div className="about-story">
           <p className="eyebrow"><span className="eyebrow-line" /> My approach</p>
-          <h2>Good digital work should feel <em>effortless.</em></h2>
-          <p>I care about the details that make a product easier to use and more enjoyable to return to. My work brings thoughtful interface design together with practical engineering—from an early idea through to a finished experience.</p>
-          <p>Inspired by cosmic symbolism and the small surprises in everyday life, I aim for work that feels original without getting in the way.</p>
+          <h2>Good software starts with a <em>real problem.</em></h2>
+          <p>Great software needs more than a polished interface: it needs sound architecture, dependable data, and code that can evolve. I work across frontend and backend development, AI, cloud, and database systems to build products end to end.</p>
+          <p>From understanding the problem to shipping and refining the solution, I focus on practical engineering that stays reliable as products grow.</p>
         </div>
         <Philosophy />
       </section>

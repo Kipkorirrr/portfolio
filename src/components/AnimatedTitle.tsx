@@ -10,15 +10,15 @@ export default function AnimatedTitle() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        <span className="eyebrow-line" /> Independent developer · Nairobi, Kenya
+        <span className="eyebrow-line" /> Software engineer · Nairobi, Kenya
       </motion.p>
       <motion.h1
         initial={{ opacity: 0, y: 24 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.1 }}
       >
-        Building digital<br />
-        <span>things that</span> <em>matter.</em>
+        Engineering<br />
+        <span>across the</span> <em>stack.</em>
       </motion.h1>
       <motion.p
         className="hero-description"
@@ -26,8 +26,8 @@ export default function AnimatedTitle() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.3 }}
       >
-        I&apos;m Enock Kipkorir — a developer crafting thoughtful web experiences
-        where useful ideas meet expressive design.
+        I&apos;m Enock Kipkorir, a software engineer, systems analyst, and designer.
+        I turn complex needs into useful products across frontend, backend, AI, cloud, and data.
       </motion.p>
     </div>
   );

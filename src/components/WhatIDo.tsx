@@ -2,9 +2,9 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const services = [
-  { number: "01", title: "Build for the web", text: "Fast, accessible products made with modern frontend tools." },
-  { number: "02", title: "Design with feeling", text: "Clear interfaces with character, rhythm, and thoughtful detail." },
-  { number: "03", title: "Ship the whole thing", text: "From first sketch to the final, polished release." },
+  { number: "01", title: "Frontend & client engineering", text: "Build responsive client apps with React, TypeScript, and modern JavaScript." },
+  { number: "02", title: "Backend, APIs & AI", text: "Design backend services and AI-powered features for practical, real-world problems." },
+  { number: "03", title: "Data, cloud & MLOps", text: "Work across MySQL and MongoDB storage, cloud infrastructure, and software delivery." },
 ];
 
 export default function WhatIDo() {
@@ -12,7 +12,7 @@ export default function WhatIDo() {
     <>
       <div className="section-heading">
         <p className="eyebrow"><span className="eyebrow-line" /> What I bring</p>
-        <h2>Ideas, meet <em>execution.</em></h2>
+        <h2>Engineering from idea to <em>impact.</em></h2>
       </div>
       <div className="service-grid">
         {services.map((item, index) => (

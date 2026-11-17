@@ -1,13 +1,23 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const projects = [
+type Project = {
+  title: string;
+  description: string;
+  category: string;
+  number: string;
+  type: string;
+  liveUrl?: string;
+};
+
+const projects: Project[] = [
   {
     title: "Healthy Coffee",
-    description: "An e-commerce experience for a coffee brand.",
-    category: "E-commerce",
+    description: "An AI-powered tool that helps coffee farmers scan leaves and detect potential plant diseases.",
+    category: "AI · Agriculture",
     number: "01",
     type: "healthy",
+    liveUrl: "https://healthycoffee.vercel.app",
   },
   {
     title: "Blush & Bloom",
@@ -29,10 +39,10 @@ function ProjectPreview({ type }: { type: string }) {
   if (type === "healthy") {
     return (
       <div className="healthy-preview" aria-hidden="true">
-        <span className="preview-kicker">SLOW MORNINGS, MADE BETTER</span>
-        <div className="coffee-cup"><span /></div>
+        <span className="preview-kicker">AI-POWERED COFFEE LEAF SCAN</span>
+        <div className="coffee-leaf"><span /></div>
         <span className="healthy-wordmark">healthy<br /><em>coffee.</em></span>
-        <span className="preview-cta">FIND YOUR BLEND&nbsp; ↗</span>
+        <span className="preview-cta">SCAN A LEAF · GET AI INSIGHTS</span>
       </div>
     );
   }
@@ -66,8 +76,8 @@ export default function Projects({ compact = false }: { compact?: boolean }) {
       {!compact && (
         <div className="section-heading section-heading-row">
           <div>
-            <p className="eyebrow"><span className="eyebrow-line" /> Selected work</p>
-            <h2>Things I&apos;ve <em>made.</em></h2>
+            <p className="eyebrow"><span className="eyebrow-line" /> Project portfolio</p>
+            <h2>Selected <em>projects.</em></h2>
           </div>
           <span className="section-count">01 — 03</span>
         </div>
@@ -92,6 +102,17 @@ export default function Projects({ compact = false }: { compact?: boolean }) {
               <div>
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
+                {project.liveUrl && (
+                  <a
+                    className="project-live-link"
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`Open ${project.title} live app (opens in a new tab)`}
+                  >
+                    View live app <span aria-hidden="true">↗</span>
+                  </a>
+                )}
               </div>
               <span className="project-meta">{project.category}</span>
             </div>
