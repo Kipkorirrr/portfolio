@@ -185,7 +185,7 @@ export default function App() {
         <Starfield />
         <header className="site-header">
           <a className="brand" href="#/home" aria-label="Enock Kipkorir, home">
-            <span className="brand-mark">EK</span>
+            <img className="brand-avatar" src={`${import.meta.env.BASE_URL}profile-photo.jpg`} alt="" />
             <span className="brand-name">Enock Kipkorir</span>
           </a>
           <nav className="site-nav" aria-label="Main navigation">

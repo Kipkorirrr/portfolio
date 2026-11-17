@@ -96,18 +96,15 @@ button {
   min-width: 210px;
 }
 
-.brand-mark {
-  display: grid;
+.brand-avatar {
+  display: block;
   width: 34px;
   height: 34px;
-  place-items: center;
-  color: var(--background);
-  background: var(--accent);
+  flex: 0 0 auto;
+  object-fit: cover;
+  object-position: center 35%;
+  border: 1px solid rgba(211, 243, 107, 0.65);
   border-radius: 50%;
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: -0.07em;
 }
 
 .brand-name {
@@ -1924,7 +1921,7 @@ button {
     font-size: 9px;
   }
 
-  .brand-mark {
+  .brand-avatar {
     width: 30px;
     height: 30px;
   }
