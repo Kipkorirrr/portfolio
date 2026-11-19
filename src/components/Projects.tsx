@@ -21,7 +21,7 @@ const projects: Project[] = [
   },
   {
     title: "Blush & Bloom",
-    description: "An online storefront for flowers and thoughtful gifts.",
+    description: "An online beauty store for makeup, skincare, and everyday essentials.",
     category: "E-commerce",
     number: "02",
     type: "blush",
@@ -50,11 +50,11 @@ function ProjectPreview({ type }: { type: string }) {
   if (type === "blush") {
     return (
       <div className="blush-preview" aria-hidden="true">
-        <span className="preview-kicker">A LITTLE JOY, DELIVERED</span>
+        <span className="preview-kicker">BEAUTY FOR YOUR EVERYDAY GLOW</span>
         <div className="flower flower-one"><i /><i /><i /><i /><i /><b /></div>
         <div className="flower flower-two"><i /><i /><i /><i /><i /><b /></div>
         <span className="blush-wordmark">blush <em>&amp; bloom</em></span>
-        <span className="blush-caption">FLOWERS FOR EVERY KIND OF DAY</span>
+        <span className="blush-caption">MAKEUP · SKINCARE · BEAUTY</span>
       </div>
     );
   }
